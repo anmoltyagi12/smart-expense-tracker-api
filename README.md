@@ -45,7 +45,6 @@ Expense-tracker/
 │   ├── database.py
 │   └── main.py
 │
-├── .env
 ├── .env.example
 ├── .gitignore
 ├── requirements.txt
@@ -58,8 +57,8 @@ Expense-tracker/
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd Expense-tracker
+git clone https://github.com/anmoltyagi12/smart-expense-tracker-api.git
+cd smart-expense-tracker-api
 ```
 
 ### 2. Create a virtual environment
