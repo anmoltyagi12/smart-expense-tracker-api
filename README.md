@@ -108,6 +108,12 @@ Interactive Swagger documentation:
 
 http://127.0.0.1:8000/docs
 
+## Postman Collection
+
+A Postman collection is available at [`postman/Smart-Expense-Tracker-API.postman_collection.json`](postman/Smart-Expense-Tracker-API.postman_collection.json). Import this file into Postman, start the API, register a test user, and run the Login request to automatically save the JWT token for authenticated requests.
+
+Before using requests that require IDs, update the `categoryId`, `transactionId`, and `budgetId` collection variables with IDs returned by your API. Transaction and budget amounts must be supplied in integer paise (₹100 = 10000).
+
 ## Database
 
 The project uses SQLite with SQLAlchemy ORM.
